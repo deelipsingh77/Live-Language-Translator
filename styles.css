@@ -49,11 +49,11 @@ main {
 #source-text,
 #translated-text {
     width: 48%;
+    height: 28vh;
     margin-bottom: 10px;
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    max-height: 600px;
 }
 
 .translate-button-container {
