@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Language Translation App</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Live Language Translator</h1>
+    </header>
+    <main>
+        <div class="text-container">
+            <textarea id="source-text" placeholder="Enter text to translate"></textarea>
+            <textarea id="translated-text" readonly></textarea>
+        </div>
+        <div class="translation-container">
+            <div class="language-selector">
+                <label for="source-language">Source Language:</label>
+                <select id="source-language">
+                    <option value="af">Afrikaans</option>
+                    <option value="sq">Albanian</option>
+                    <option value="am">Amharic</option>
+                    <option value="ar">Arabic</option>
+                    <option value="az">Azerbaijani</option>
+                    <option value="eu">Basque</option>
+                    <option value="be">Belarusian</option>
+                    <option value="bn">Bengali</option>
+                    <option value="bs">Bosnian</option>
+                    <option value="bg">Bulgarian</option>
+                    <option value="ca">Catalan</option>
+                    <option value="ceb">Cebuano</option>
+                    <option value="ny">Chichewa</option>
+                    <option value="zh-CN">Chinese (Simplified)</option>
+                    <option value="zh-TW">Chinese (Traditional)</option>
+                    <option value="co">Corsican</option>
+                    <option value="hr">Croatian</option>
+                    <option value="cs">Czech</option>
+                    <option value="da">Danish</option>
+                    <option value="en">English</option>
+                    <option value="hi">Hindi</option>
+                    <option value="ne">Nepali</option>
+                </select>
+            </div>
+            <div class="language-selector">
+                <label for="target-language">Target Language:</label>
+                <select id="target-language">
+                    <option value="af">Afrikaans</option>
+                    <option value="sq">Albanian</option>
+                    <option value="am">Amharic</option>
+                    <option value="ar">Arabic</option>
+                    <option value="az">Azerbaijani</option>
+                    <option value="eu">Basque</option>
+                    <option value="be">Belarusian</option>
+                    <option value="bn">Bengali</option>
+                    <option value="bs">Bosnian</option>
+                    <option value="bg">Bulgarian</option>
+                    <option value="ca">Catalan</option>
+                    <option value="ceb">Cebuano</option>
+                    <option value="ny">Chichewa</option>
+                    <option value="zh-CN">Chinese (Simplified)</option>
+                    <option value="zh-TW">Chinese (Traditional)</option>
+                    <option value="co">Corsican</option>
+                    <option value="hr">Croatian</option>
+                    <option value="cs">Czech</option>
+                    <option value="da">Danish</option>
+                    <option value="en">English</option>
+                    <option value="hi">Hindi</option>
+                    <option value="ne">Nepali</option>
+                </select>
+ 
+            </div>
+        </div>
+        <div class="translate-button-container">
+            <button id="translate-button">Translate</button>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2023 Your Name</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
