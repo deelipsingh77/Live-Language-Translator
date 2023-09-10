@@ -24,17 +24,22 @@ main {
 
 .translation-container {
     display: flex;
+    align-items: normal;
+    width: 100%;
+    flex-direction: row;
     justify-content: space-between;
-    align-items: flex-start;
+    align-items: center;
 }
 
 .language-selector {
-    width: 48%;
+    width: 45%;
+    margin: 1%;
 }
 
 .language-selector select {
     width: 100%;
     padding: 5px;
+    height: 3rem;
 }
 
 #source-text,
@@ -79,4 +84,9 @@ textarea {
     margin: 1%;
     resize: none;
     font-size: 150%;
+}
+
+#swap-button {
+    width: 3%;
+    height: 3%;    
 }
